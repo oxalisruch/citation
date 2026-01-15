@@ -31,7 +31,7 @@
 
 
 		/* Mise en page */
-		body {
+		.citation {
 			min-height: 100vh;
 			display: flex;
 			justify-content: center;
@@ -45,12 +45,15 @@
 
 		/* Navigation */
 		nav {
-			font-family: "Public Sans", sans-serif;
-			font-size: 1.5ch;
 			display: flex;
 			align-items: center;
-			flex-direction: column;
+			flex-direction: row;
+		}
+		a{
 			text-decoration: none;
+			font-family: "Public Sans", sans-serif;
+			font-size: 1.5ch;
+			color: rgb(255, 255, 255);
 		}
 		.navig {
 			margin-top: 20ch;
@@ -61,11 +64,13 @@
 </head>
 <body>
 	
-	<div><h1>« Qui n'a jamais mis de framboises sur ses dix doigts avant de les manger ? »</h1></div>
+	<div class="citation">
+		<div><h1>« Qui n'a jamais mis de framboises sur ses dix doigts avant de les manger ? »</h1></div>
 
-	<div>
-		<p>Jean-Pierre Jeunet</p>
-		<p>Dans Le fabuleux destin d'Amélie Poulain (2001)</p>
+		<div>
+			<p>Jean-Pierre Jeunet</p>
+			<p>Dans Le fabuleux destin d'Amélie Poulain (2001)</p>
+		</div>
 	</div>
 
 	<div class="navig">
