@@ -7,6 +7,8 @@
 
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet');
+		
 
 
 		/* Typo */
@@ -14,7 +16,9 @@
 			font-family: "Public Sans", sans-serif;
 		}
 		h1 {
-			font-size: 8vw;
+			font-family: "Uncial Antiqua", system-ui;
+  			font-weight: 400;
+			font-size: 11vw;
 			letter-spacing: -0.02em;
 		}
 		p {
@@ -25,40 +29,51 @@
 
 		/* Couleur */
 		body {
-			background-color: rgb(197, 0, 121);
-			color: rgb(168, 188, 16);
+			background-color: rgb(0, 148, 168);
+			color: rgb(255, 183, 0);
 		}
 
 
 		/* Mise en page */
 		.citation {
-			min-height: 80vh;
+			min-height: 70vh;
 			display: flex;
 			justify-content: center;
-			margin-left: 4ch;
+			/* align-items: end; */
 			flex-direction: column;
+			margin: 6ch;
 		}
 		h1 {
 			max-width: 13ch;
+
+		}
+
+
+		/* Cadre */
+		.citation { 
+			outline: 6px solid rgb(255, 255, 255); 
+			padding: 2rem; 
 		}
 	</style>
 
 </head>
 <body>
-	
-	<div class="citation">
-		<div><h1>« Qui n'a jamais mis de framboises sur ses dix doigts avant de les manger ? »</h1></div>
 
+	<div class="citation">
 		<div>
-			<p>Jean-Pierre Jeunet</p>
-			<p>Dans Le fabuleux destin d'Amélie Poulain (2001)</p>
+			<h1>- Y a pas d'hélice hélas.</h1>
+			<h1>- C'est là qu'est l'os !</h1>
+		</div>
+		<div>
+			<p>Gérard Oury</p>
+			<p>Dans La Grande Vadrouille (1966)</p>
 		</div>
 	</div>
 
 	<div class="navig">
-		<nav><a href="citation_14.html">PRÉCÉDENT</a></nav>
+		<nav><a href="citation_14.html">PRECEDENT</a></nav>
 		<nav><a href="../index.html">MENU</a></nav>
-		<nav><a href="citation_02.html">SUIVANT</a></nav>
+		<nav><a href="citation_16.html">SUIVANT</a></nav>
 	</div>
 	<link rel="stylesheet" href="stylenav.css">
 </body>
