@@ -1,0 +1,20 @@
+/* Navigation */
+		nav {
+			outline: 1.5px solid rgb(255, 255, 255); 
+			padding: 0.5rem;
+		}
+		a {
+			text-decoration: none;
+			font-family: "Public Sans", sans-serif;
+			font-size: 1.5ch;
+			color: rgb(255, 255, 255);
+		}
+		.navig {
+			margin-top: 10ch;
+			margin-bottom: 5ch;
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			justify-content: center;
+			gap: 1em;
+		}
